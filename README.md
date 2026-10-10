@@ -9,7 +9,6 @@ The goal of this project is to identify how returns affect revenue, clean and va
 
 ## Pipeline
 
-```text
 Raw CSV Data
     ↓
 SQLite Relational Layer
