@@ -23,6 +23,10 @@ Visualizations
 findings.json
     ↓
 Gemini / Offline SCR Narrator
+
+~~~
+
+Every reported number is generated from the data and passed forward through the pipeline.
 ---
 
 ## Repository Structure
@@ -53,3 +57,4 @@ mamaearth_returns_growth_intelligence_pipeline/
     ├── findings.json
     ├── generate_narrative.py
     └── sample_output.txt
+~~~
