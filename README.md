@@ -6,15 +6,23 @@ An end-to-end analytics pipeline for Mamaearth order and return data using SQL, 
 
 The goal of this project is to identify how returns affect revenue, clean and validate the raw order data, detect high-risk return segments, correct misleading revenue trends caused by outliers, and convert the verified findings into a business-friendly Situation–Complication–Resolution narrative.
 
-The pipeline is:
 
-Raw CSV Data  
-→ SQLite Relational Layer  
-→ SQL Reports  
-→ Python/pandas Cleaning and EDA  
-→ Visualizations  
-→ findings.json  
-→ Gemini / Offline SCR Narrator
+## Pipeline
+
+```text
+Raw CSV Data
+    ↓
+SQLite Relational Layer
+    ↓
+SQL Reports
+    ↓
+Python/pandas Cleaning and EDA
+    ↓
+Visualizations
+    ↓
+findings.json
+    ↓
+Gemini / Offline SCR Narrator
 
 Every reported number is generated from the data and passed forward through the pipeline.
 
