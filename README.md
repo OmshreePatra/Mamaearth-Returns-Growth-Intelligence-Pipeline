@@ -9,6 +9,7 @@ The goal of this project is to identify how returns affect revenue, clean and va
 
 ## Pipeline
 
+```text
 Raw CSV Data
     ↓
 SQLite Relational Layer
@@ -25,6 +26,7 @@ Gemini / Offline SCR Narrator
 
 Every reported number is generated from the data and passed forward through the pipeline.
 
+```text
 ---
 
 ## Repository Structure
