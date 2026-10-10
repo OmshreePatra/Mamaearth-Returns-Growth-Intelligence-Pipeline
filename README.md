@@ -2,10 +2,10 @@
 
 An end-to-end analytics pipeline for Mamaearth order and return data using SQL, Python/pandas, Matplotlib, and a GenAI insight narrator with a deterministic offline fallback.
 
+
 ## Project Objective
 
 The goal of this project is to identify how returns affect revenue, clean and validate the raw order data, detect high-risk return segments, correct misleading revenue trends caused by outliers, and convert the verified findings into a business-friendly Situation–Complication–Resolution narrative.
-
 
 ## Pipeline
 
@@ -23,15 +23,10 @@ Visualizations
 findings.json
     ↓
 Gemini / Offline SCR Narrator
-
-Every reported number is generated from the data and passed forward through the pipeline.
-
-```text
 ---
 
 ## Repository Structure
 
-```text
 mamaearth_returns_growth_intelligence_pipeline/
 │
 ├── README.md
