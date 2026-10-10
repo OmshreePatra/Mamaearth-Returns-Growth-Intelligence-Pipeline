@@ -9,13 +9,21 @@ The goal of this project is to identify how returns affect revenue, clean and va
 
 ## Pipeline
 
-1. Raw CSV Data
-2. SQLite Relational Layer
-3. SQL Reports
-4. Python/pandas Cleaning and EDA
-5. Visualizations
-6. `findings.json`
-7. Gemini / Offline SCR Narrator
+~~~text
+Raw CSV Data
+    ↓
+SQLite Relational Layer
+    ↓
+SQL Reports
+    ↓
+Python/pandas Cleaning and EDA
+    ↓
+Visualizations
+    ↓
+findings.json
+    ↓
+Gemini / Offline SCR Narrator
+~~~
 
 Every reported number is generated from the data and passed forward through the pipeline.
 
@@ -23,22 +31,31 @@ Every reported number is generated from the data and passed forward through the 
 
 ## Repository Structure
 
-- `README.md`
-- `data/`
-  - `customers.csv`
-  - `products.csv`
-  - `orders.csv`
-- `sql/`
-  - `schema.sql`
-  - `seed_data.sql`
-  - `reports.sql`
-- `analysis/`
-  - `clean_and_eda.py`
-  - `visualize.py`
-- `visualizations/`
-  - `return_rate_by_payment.png`
-  - `monthly_revenue_trend.png`
-- `narrator/`
-  - `findings.json`
-  - `generate_narrative.py`
-  - `sample_output.txt`
+~~~text
+mamaearth_returns_growth_intelligence_pipeline/
+│
+├── README.md
+│
+├── data/
+│   ├── customers.csv
+│   ├── products.csv
+│   └── orders.csv
+│
+├── sql/
+│   ├── schema.sql
+│   ├── seed_data.sql
+│   └── reports.sql
+│
+├── analysis/
+│   ├── clean_and_eda.py
+│   └── visualize.py
+│
+├── visualizations/
+│   ├── return_rate_by_payment.png
+│   └── monthly_revenue_trend.png
+│
+└── narrator/
+    ├── findings.json
+    ├── generate_narrative.py
+    └── sample_output.txt
+~~~
