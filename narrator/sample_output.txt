@@ -1,0 +1,8 @@
+Situation
+After cleaning the order data, verified total revenue is ₹97,358.30, compared with raw SQL revenue of ₹99,860.20. The analysis shows clear differences in return behaviour across payment methods. COD orders have a return rate of 44.4%, compared with 14.7% for CARD and 18.9% for UPI.
+
+Complication
+The main return-risk concentration is COD orders from Tier-2 cities, where the return rate reaches 54.5%. The raw revenue figure is overstated by ₹2,501.90 because of duplicate transactions. In addition, 2026-01 initially appears to be the strongest revenue month at ₹29,582.10, but after excluding the identified quantity outliers, its corrected revenue falls to ₹11,637.10.
+
+Resolution
+Regional operations and finance teams should prioritise reducing COD return risk in Tier-2 cities and use the cleaned dataset rather than the raw transaction totals for reporting. After correcting the outlier effect, March is the true peak month, with verified revenue of ₹20,318.90. Future reporting should continue using duplicate checks, outlier flags and segmented return-rate analysis before business decisions are made.
