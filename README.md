@@ -26,7 +26,6 @@ Every reported number is generated from the data and passed forward through the 
 mamaearth_returns_growth_intelligence_pipeline/
 │
 ├── README.md
-├── mamaearth.db
 │
 ├── data/
 │   ├── customers.csv
